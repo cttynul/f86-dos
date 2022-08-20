@@ -65,6 +65,19 @@ static const uint8_t parity[0x100] = {
 	of = (temp16 >> 11) & 1; \
 	}
 
+/*
+*	FLAG REGISTER -> 16 bit
+*	cf -> carry flag / status flag
+*	pf -> parity flag / status flag
+*	af -> auxiliary flag / status flag
+*	zf -> zero flag / status flag
+*	sf -> sign flag / status flag
+*	tf -> trap flag	/ control flag
+*	ifl -> interrupt flag / control flag
+*	df -> direction flag / control flag
+*	of -> overflow flag / status flag
+*/
+
 
 void CPU::flag_szp8 (uint8_t value) 
 {
@@ -144,7 +157,7 @@ void CPU::flag_adc8 (uint8_t v1, uint8_t v2, uint8_t v3)
 			af = 1;
 		}
 	else {
-			af = 0; /* set or clear auxilliary flag */
+			af = 0; /* set or clear auxiliary flag */
 		}
 }
 
