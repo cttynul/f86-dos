@@ -32,19 +32,6 @@ MS-DOS boot up from `dosboot.img` floppy image, with some out-of-the-box customi
 * `PATH` All executables included into MS-DOS floppy drive are in PATH.
 * `KEYBOARD.SYS` Missing layout definition.
 
-### MS-DOS EXEs
-If you're too lazy to Google them here's a list of what's included
-* `ATTRIB.EXE`
-* `CHKDSK.EXE`
-* `DEBUG.EXE`
-* `EDIT.EXE`
-* `EXPAND.EXE`
-* `FDISK.EXE`
-* `FORMAT.EXE`
-* `KEYB.COM`
-* `MOUSE.COM` Run at boot with `C:\AUTOEXEC.BAT`
-* `QBASIC.EXE`
-
 ## Compatibility
 * Raspberry Pi [A, B, A+, B+]
 * Raspberry Pi 2 [B]
