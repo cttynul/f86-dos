@@ -1,0 +1,11 @@
+# Disable rainbow splash screen
+disable_splash=1
+
+# Force aspect ratio to 4:3
+sdtv_aspect=1
+
+# Disable HDMI
+hdmi_ignore_hotplug=1
+
+# Set analog out to NTSC (0 -> NTSC, 1 -> JAP-NTSC 2 -> PAL, 3 -> BR-PAL)
+sdtv_mode=0
